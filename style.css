@@ -1,0 +1,458 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Philosopher";
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background-image: url("greybackground.jpg");
+    background-size: cover;
+}
+
+#courses {
+  background-color: grey;
+}
+
+
+#copyright {
+  text-align: left;
+  font-size: 10px;
+  color: white;
+  background-color: #333;
+  padding: 2vw;
+}
+
+.active-page {
+  background-color: #2a2e12;
+}
+
+/* Navigation bar styling */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 1.5vw;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1.5vw;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #4b5320;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* Home page Styling*/
+
+
+@media (max-width: 1000px) {
+  #textbox{
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    padding: 9vw;
+    background-color: grey;
+    align-items: center;
+    height: 100%;
+}
+
+.home-text {
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
+  
+}
+
+@media (min-width: 1001px) {
+
+  #textbox{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding: 9vw;
+    background-color: grey;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .home-text {
+    width: 30%;
+    float: left;
+  }
+  
+  .image1 {
+    width: 30vw;
+    height: 24vw;
+    float: center;
+    margin-left: 15vw;
+    margin-top: 3vw;
+  }
+
+}
+
+#greyzoneethics {
+    padding: 10vw;
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    background-image: url("ethicsbook.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#iraqbook {
+    padding: 8vw;
+    text-align: center;
+    background-image: url("iraqbook1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid black;
+}
+
+.iraqbooktext {
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  border-radius: 3vw;
+  padding: 2vw;
+  font-size: 20px;
+}
+
+/* Contact page styling */
+main {
+  width: 60vw;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  height: 55rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem 2rem;
+}
+ 
+form {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+ 
+.input__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+ 
+.input__container label { font-size: 1.6rem; }
+ 
+.input__container input, textarea {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #555;
+  resize: none;
+}
+
+textarea {
+  height: 10rem;
+}
+
+.submitbutton {
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home_contact {
+  background-color: grey;
+}
+
+/* Courses styles */
+
+.textbox {
+  text-align: left;
+  padding: 3vw 4vw;
+  font-size: 17px;
+  color: black;
+}
+.slideshow-header {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  }
+  
+  * {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .slideshow-container {
+  max-width: 65vw;
+  max-height: 50vw;
+  position: relative;
+  margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+  display: none;
+  }
+
+  .mySlides a {
+    color: grey;
+  }
+
+  .mySlides a:hover {
+    color: darkgrey;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  }
+  
+  
+  /* Position the "next button" to the right */
+  .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+  background-color: grey;
+  }
+  
+  /* Caption text */
+  .text1 {
+  color: #f2f2f2;
+  font-size: 2.2vw;
+  padding: 1vw 12vw;
+  position: absolute;
+  bottom: 8vw;
+  width: 60%;
+  text-align: left;
+  }
+  .text2 {
+  color: white;
+  font-size: 2.2vw;
+  padding: 1vw 10vw;
+  position: absolute;
+  bottom: 14vw;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .text3 {
+  color: white;
+  font-size: 2.2vw;
+  padding: 1vw 10vw;
+  position: absolute;
+  bottom: 15vw;
+  width: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+  cursor: pointer;
+  height: 1.2vw;
+  width: 1.2vw;
+  margin: 0 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+  background-color: #373737;
+  }
+  
+  /* Fading animation */
+  .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+  }
+
+
+  /* Grey Zone Ethics styles */
+.banner {
+  height: 30vw;
+  background-image: url("GZE_Logo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gze {
+  margin: 0;
+  height: 100%;
+  background-image: url("greybackground2.jpg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Philosopher";
+}
+
+.GZEtextbox {
+  text-align: left;
+  padding: 5vw;
+  font-size: 1.5vw;
+  color: black;
+}
+
+/* Iraq book styles */
+
+#shake-and-bake {
+  background-image: url("chalk board.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  text-align: center;
+}
+
+#textbox2 {
+  font-size: 20px;
+  color: black;
+  padding: 6vw;
+  background-color: rgba(80,80,80,0.9);
+  margin: 3vw;
+}
+
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
+
+.home-text2 {
+  text-align: center;
+}
+
+div.image-gallery {
+  background-color: rgba(80,80,80,0.9);
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 0.5vw;
+  margin: 3vw;
+}
+
+.image-gallery h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+div.gallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 225px;
+  object-fit: cover;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
