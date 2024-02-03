@@ -8,8 +8,7 @@ body {
 }
 
 #home {
-    background-image: url("greybackground.jpg");
-    background-size: cover;
+
 }
 
 #courses {
@@ -101,7 +100,7 @@ body {
     font-size: 15px;
     color: black;
     padding: 9vw;
-    background-color: grey;
+    background-color: white;
     align-items: center;
     height: 100%;
 }
@@ -128,7 +127,7 @@ body {
     font-size: 20px;
     color: black;
     padding: 9vw;
-    background-color: grey;
+    background-color: white;
     align-items: center;
     height: 100%;
   }
