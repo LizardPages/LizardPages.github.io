@@ -8,8 +8,8 @@ body {
 }
 
 #home {
-    background-image: greybackground2.jpg;
-    background-style: cover;
+    background-image: url("greybackground2.jpg");
+    background-size: cover;
 }
 
 #courses {
