@@ -158,6 +158,12 @@ body {
     background-position: center;
 }
 
+@media (max-height: 700px) {
+	#iraqbook {
+		margin-top: 60vw;
+	}
+}
+
 #iraqbook {
     padding: 8vw;
     text-align: center;
