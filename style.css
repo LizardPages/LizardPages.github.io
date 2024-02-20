@@ -467,3 +467,17 @@ div.desc {
     color: #568203;
     text-decoration-line: underline;
 }
+
+#kidsbook {
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  border-radius: 3vw;
+  padding: 2vw;
+  font-size: 20px;
+}
+
+.kidsbooktext {
+
+}
