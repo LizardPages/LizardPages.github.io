@@ -470,6 +470,8 @@ div.desc {
 
 #kidsbook {
   background-color: white;
+	display: block;
+	align-items: center;
 }
 
 .kidsbooktext {
@@ -483,7 +485,7 @@ div.desc {
 }
 
 .kidsimage {
-	width: 40%;
+	width: 25%;
 	height: auto;
 	margin: 5vw;
 }
