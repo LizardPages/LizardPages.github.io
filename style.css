@@ -481,3 +481,9 @@ div.desc {
   font-size: 20px;
 
 }
+
+.kidsimage {
+	width: 40%;
+	height: auto;
+	margin: 5vw;
+}
