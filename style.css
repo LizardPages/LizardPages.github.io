@@ -495,13 +495,13 @@ div.desc {
 	text-align: center;
 }
 
-kidspagetext {
+.kidspagetext {
 	margin-left: 10vw;
 	margin-right: 10vw;
 	text-align: center;
 }
 
-kidspagelink {
+.kidspagelink {
 	font-size: 3vw;
 	text-align: center;
 	margin: 5vw 10vw;
