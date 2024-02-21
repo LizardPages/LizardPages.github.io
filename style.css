@@ -493,7 +493,7 @@ div.desc {
 	width: 60%;
 	height: auto;
 	text-align: center;
-	margin: 10vw 10vw;
+	margin: 20vw;
 }
 
 .kidspagetext {
@@ -503,7 +503,7 @@ div.desc {
 }
 
 .kidspagelink {
-	font-size: 10px;
+	font-size: 50px;
 	text-align: center;
 	margin: 10vw;
 }
