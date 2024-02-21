@@ -488,3 +488,22 @@ div.desc {
 	width: 30vw;
 	height: auto;
 }
+
+.kidspageimage {
+	width: 60%
+	height: auto;
+	text-align: center;
+}
+
+kidspagetext {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	text-align: center;
+}
+
+kidspagelink {
+	font-size: 3vw;
+	text-align: center;
+	margin: 5vw 10vw;
+}
+
