@@ -507,6 +507,8 @@ div.desc {
 .contact-email {
     padding: 3vw;
   margin: 3vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   color: black;
   background-color: white;
 	text-align: center;
