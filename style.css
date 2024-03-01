@@ -512,6 +512,8 @@ div.desc {
   background-color: white;
 	text-align: left;
 	font-size: 15px;
+	 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 2rem;
 }
 
 .contact-email h1 {
