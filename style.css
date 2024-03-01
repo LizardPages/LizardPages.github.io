@@ -505,6 +505,7 @@ div.desc {
 }
 
 .contact-email {
+	width: 20%;
     padding: 3vw;
   margin: 3vw;
   margin-left: 15vw;
@@ -512,5 +513,6 @@ div.desc {
   color: black;
   background-color: white;
 	text-align: center;
+	font-size: 15px;
 }
 
