@@ -507,11 +507,16 @@ div.desc {
 .contact-email {
     padding: 3vw;
   margin: 3vw;
-  margin-left: 40vw;
-  margin-right: 40vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
   background-color: white;
-	text-align: center;
+	text-align: left;
 	font-size: 15px;
+}
+
+.contact-email h1 {
+	font-size: 30px;
+	color: black;
 }
 
 .contact-email-text {
