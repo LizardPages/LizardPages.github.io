@@ -148,6 +148,10 @@ body {
     float: center;
     margin-left: 15vw;
     margin-top: 3vw;
+	      border: 1px solid #4B5320;
+	outline-style: solid;
+	outline-color: #4B5320;
+	outline-width: thick;
   }
 
 }
