@@ -117,6 +117,10 @@ body {
     margin-right: auto;
     width: 70%;
     height: auto;
+    border: 1px solid 4B5320;
+	outline-style: solid;
+	outline-color: red;
+	outline-width: thick;
 }
   
 }
