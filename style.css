@@ -121,7 +121,7 @@ body {
 	outline-style: solid;
 	outline-color: #4B5320;
 	outline-width: thick;
-	box-shadow: 5px 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
   
 }
@@ -153,7 +153,7 @@ body {
 	outline-style: solid;
 	outline-color: #4B5320;
 	outline-width: thick;
-	  box-shadow: 5px 10px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
 
 }
