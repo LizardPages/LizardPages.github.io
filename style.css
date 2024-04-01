@@ -484,6 +484,7 @@ div.desc {
 
 #kidsbook {
   background-color: white;
+	background-image: url("kids background.png");
 	display: grid;
 	 align-items: center; 
  grid-template-columns: 1fr 1fr 1fr;
