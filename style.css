@@ -485,6 +485,7 @@ div.desc {
 #kidsbook {
   background-color: white;
 	background-image: url("kid background.png");
+	background-style: cover;
 	display: grid;
 	 align-items: center; 
  grid-template-columns: 1fr 1fr 1fr;
@@ -543,5 +544,6 @@ div.desc {
 }
 
 .kidspagecontainer {
-	background-image: url("kid background.png")
+	background-image: url("kid background.png");
+	background-style: cover;
 }
