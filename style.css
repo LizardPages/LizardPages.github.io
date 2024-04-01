@@ -195,6 +195,10 @@ body {
 }
 
 /* Contact page styling */
+.home_contact {
+	background-image: url("greybackground2-5.jpg");
+}
+
 main {
   width: 60vw;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
