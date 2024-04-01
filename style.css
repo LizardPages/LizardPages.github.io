@@ -541,3 +541,7 @@ div.desc {
   color: black;
 	
 }
+
+#thekidspage .main {
+	background-image: url("kids background.png")
+}
