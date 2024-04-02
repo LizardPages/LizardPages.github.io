@@ -178,7 +178,6 @@ body {
     padding: 8vw;
     text-align: center;
     background-image: url("rediraqbook.jpg");
-    background-position: center;
     background-size: cover;
     background-position: center; 
     border-top: 5px solid black;
@@ -197,6 +196,8 @@ body {
 /* Contact page styling */
 .home_contact {
 	background-image: url("greybackground2-5.jpg");
+	    background-size: cover;
+    background-position: center; 
 }
 
 main {
@@ -533,16 +534,16 @@ div.desc {
   margin: 3vw;
   margin-left: 20vw;
   margin-right: 20vw;
-  margin-bottom: 35vw;
+  margin-bottom: 90vh;
   background-color: white;
 	text-align: left;
-	font-size: 15px;
+	font-size: 17px;
 	 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
 	border-radius: 2rem;
 }
 
 .contact-email h1 {
-	font-size: 30px;
+	font-size: 20px;
 	color: black;
 }
 
