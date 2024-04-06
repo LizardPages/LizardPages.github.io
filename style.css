@@ -511,15 +511,17 @@ div.desc {
 .kidsimage {
 	width: 30vw;
 	height: auto;
+	border: 5px solid black;
 }
 
 .kidspageimage {
-	width: 60%;
+	width: 50%;
 	height: auto;
 	text-align: center;
 	margin: 20vw;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	border: 5px solid black;
 }
 
 .kidspagetext {
