@@ -280,6 +280,7 @@ textarea {
   max-height: 50vw;
   position: relative;
   margin: auto;
+	overflow-y: scroll;
   }
   
   /* Hide the images by default */
