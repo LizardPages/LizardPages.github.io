@@ -181,6 +181,7 @@ body {
     background-size: cover;
     background-position: center; 
     border-top: 5px solid black;
+    display: block;
 }
 
 .iraqbooktext {
@@ -191,7 +192,7 @@ body {
   border-radius: 3vw;
   padding: 2vw;
   font-size: 20px;
-	display: block;
+
 }
 
 /* Contact page styling */
