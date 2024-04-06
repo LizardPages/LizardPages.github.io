@@ -502,7 +502,7 @@ div.desc {
   font-size: 20px;
 	  border-radius: 3vw;
   padding: 2vw;
-	  background-color: rgba(0,0,0,0.50);
+	  background-color: green;
 	
 
 }
@@ -526,7 +526,7 @@ div.desc {
 	text-align: center;
 		  border-radius: 3vw;
   padding: 2vw;
-	  background-color: rgba(0,0,0,0.50);
+	  background-color: green;
 }
 
 .contact-email {
