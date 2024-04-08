@@ -518,6 +518,8 @@ div.desc {
   font-size: 20px;
 	  border-radius: 3vw;
   padding: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
 	  background-color: green;
 	border: 3px solid black;
 	float: right;
