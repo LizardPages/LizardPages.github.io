@@ -571,7 +571,7 @@ div.desc {
 }
 
 .amazonimg {
-	width: 100px;
+	height: 20px;
 	border: 3px solid white;
 }
 
@@ -582,7 +582,7 @@ div.desc {
 }
 
 .bandnlink {
-	width: 120px;
+	height: 20px;
 	border: 3px solid white;
 }
 
