@@ -400,9 +400,7 @@ textarea {
 
   /* Grey Zone Ethics styles */
 .banner {
-  width: 300px;
-  height: auto;
-
+	height: 25vw;
   background-image: url("GZE_Logo1.png");
   background-position: center;
   background-repeat: no-repeat;
