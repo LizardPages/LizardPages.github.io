@@ -493,6 +493,7 @@ div.desc {
 #kidsbook {
   background-color: white;
 	background-image: url("kid background.png");
+	background-color: white;
 	background-size: 20vw;
 	backgorund-height: auto;
 	display: grid;
@@ -568,6 +569,7 @@ div.desc {
 
 .kidspagecontainer {
 	background-image: url("kid background.png");
+	background-color: white;
 		background-size: 20vw;
 	backgorund-height: auto;
 }
