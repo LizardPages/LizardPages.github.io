@@ -585,3 +585,77 @@ div.desc {
 	width: 120px;
 	border: 3px solid white;
 }
+
+.mySlides2 {
+
+	max-width: 70vw;
+	max-height: 70vw;
+		overflow-y: scroll;
+		overflow-x: hide;
+
+}
+
+.mySlides2 img {
+
+	height: auto;
+	max-width: 70vw;
+	height: 35vw;
+	object-fit: cover;
+	margin-left: 5vw;
+
+
+
+}
+
+.mySlides2 h2 {
+	color: white;
+	text-align: center;
+	margin-left: 0vw;
+	font-size: 18px;
+
+} 
+
+.slideshow2 {
+	background-color: black;
+	padding: 1vw;
+	margin: 3vw;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	position: relative;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.slideshow-button1 {
+	position: absolute;
+	top: 50%;
+	left: 4%;
+	transform: translate(-50%, -5%);
+  	-ms-transform: translate(-50%, -5%);
+  	background-color: #555;
+  	color: white;
+  font-size: 16px;
+  padding: 1vw 2vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slideshow-button2 {
+	position: absolute;
+	top: 50%;
+	right: -3.6%;
+	transform: translate(-50%, -5%);
+  	-ms-transform: translate(-50%, -5%);
+  	background-color: #555;
+  	color: white;
+  font-size: 16px;
+  padding: 1vw 2vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slideshow2 h1 {
+	text-align: center;
+	color: white;
+}
