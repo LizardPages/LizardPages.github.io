@@ -511,6 +511,7 @@ div.desc {
   padding: 2vw;
 	  background-color: green;
 	border: 3px solid black;
+	float: right;
 	
 
 }
