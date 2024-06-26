@@ -677,3 +677,8 @@ div.desc {
 	text-align: center;
 	color: white;
 }
+
+.video {
+	margin: 5vw;
+	margin-left: 10vw;
+}
