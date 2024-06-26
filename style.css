@@ -678,7 +678,22 @@ div.desc {
 	color: white;
 }
 
+@media (max-width: 1000px) {
 .video {
-	margin: 5vw;
-	margin-bottom: 20vw;
+	margin: 2vw;
+	margin-bottom: 10vw;
+	width: 300;
+	height: 180;
+	
+}
+}
+
+@media (min-width: 1001px) {
+
+	.video {
+		margin: 5vw;
+		margin-bottom: 20vw;
+		width: 500;
+		height: 300;
+	}
 }
