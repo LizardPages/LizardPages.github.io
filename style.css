@@ -680,9 +680,7 @@ div.desc {
 @media (max-width: 1000px) {
 .video {
 	margin: 2vw;
-	margin-bottom: 50vw;
-	margin-left: 4vw;
-	width: 300;
+	width: 275;
 	height: 180;
 	
 }
