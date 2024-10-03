@@ -682,7 +682,7 @@ div.desc {
 	margin-top: 5vw;
 	width: 250;
 	height: 170;
-	margin-bottom: 5vw;
+	margin-bottom: 5vh;
 	
 }
 }
@@ -691,7 +691,7 @@ div.desc {
 
 	.video {
 		margin: 5vw;
-		margin-bottom: 5vw;
+		margin-bottom: 5vh;
 		width: 900;
 		height: 650;
 	}
