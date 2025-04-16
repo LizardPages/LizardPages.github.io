@@ -768,13 +768,13 @@ div.desc {
 }
 
 .video-wrapper {
-  max-width: 100%;
+    position: relative;
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+
+  /* Maintain 16:9 aspect ratio */
+  aspect-ratio: 16 / 9;
 }
 
 .video-wrapper iframe {
