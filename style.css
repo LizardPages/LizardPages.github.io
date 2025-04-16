@@ -775,6 +775,7 @@ div.desc {
 
   /* Maintain 16:9 aspect ratio */
   aspect-ratio: 16 / 9;
+margin-bottom: 10vh;
 }
 
 .video-wrapper iframe {
